@@ -1,0 +1,27 @@
+<Application x:Class="NexusBoost.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="BackgroundBrush" Color="#070B16"/>
+        <SolidColorBrush x:Key="PanelBrush" Color="#0D1528"/>
+        <SolidColorBrush x:Key="PanelBorderBrush" Color="#1C3157"/>
+        <SolidColorBrush x:Key="TextBrush" Color="#EAF1FF"/>
+        <SolidColorBrush x:Key="MutedBrush" Color="#92A5C9"/>
+        <SolidColorBrush x:Key="BlueBrush" Color="#287BFF"/>
+        <SolidColorBrush x:Key="PurpleBrush" Color="#773BFF"/>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="#F6F8FF"/>
+            <Setter Property="Background" Value="#17305A"/>
+            <Setter Property="BorderBrush" Value="#2B4F89"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="12,8"/>
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="{StaticResource TextBrush}"/>
+        </Style>
+    </Application.Resources>
+</Application>
